@@ -1,0 +1,64 @@
+.box {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; /* Adding a transitioning effect */
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Applying 3D effect on hover */
+}
+.header {
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.input-group {
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-end;
+  /* text-align: center; */
+  justify-content: center;
+  margin-bottom: 10px;
+  /* width: 60%; */
+}
+
+.input-group label {
+  width: 100px;
+}
+
+.register-button {
+  margin-top: 10px;
+  background-color: #9245a0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add 3D effect with a shadow */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Adding transition to box-shadow */
+}
+
+.register-button:hover {
+  background-color: #9245a0 #4caf50; /* Darker color on hover */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); /* Lift effect on hover */
+}
