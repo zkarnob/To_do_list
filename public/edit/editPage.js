@@ -15,12 +15,12 @@ taskIdElement.appendChild(document.createTextNode(taskIds))
 
 fetch(`/tasks/${taskIds}`).then((response) => {
     response.json().then((data) => {
-        // console.log(data.taskName)
+      
         taskNameElement.appendChild(document.createTextNode(data.taskName))
 
 
         form.addEventListener('submit', e => {
-            e.preventDefault(); // prevents from restarting
+            e.preventDefault(); 
 
             var editedTask = document.getElementById('task-name').value;
 
@@ -29,7 +29,7 @@ fetch(`/tasks/${taskIds}`).then((response) => {
                 taskName: editedTask,
             }
 
-            if (editedTask) { // send a put request
+            if (editedTask) { 
                 fetch(url, {
                     method: "PUT",
                     headers: {
