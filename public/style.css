@@ -74,7 +74,6 @@ form input[type="text"] {
   border-radius: 5px;
 }
 
-/* Add hover effect to change color on hover */
 .button:hover {
   background-color: #45a049;
 }
@@ -83,7 +82,6 @@ form input[type="text"] {
   left: 100%;
 }
 
-/* Apply the 3D effect and hover effect to the submit button */
 .submit-button {
   position: relative;
   border: none;
@@ -96,12 +94,11 @@ form input[type="text"] {
   transition: background-color 0.3s;
 }
 .button.delete {
-  background-color: #4caf50; /* Green color for the button */
+  background-color: #4caf50;
 }
 
-/* Transition on hover, button changes to red */
 .button.delete:hover {
-  background-color: #f44336; /* Red color for the button */
+  background-color: #f44336;
 }
 
 .submit-button::before {
@@ -140,6 +137,6 @@ form input[type="text"] {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .task-name {
-  font-size: 36px; /* Adjust the font size as per your preference */
+  font-size: 36px;
   font-weight: bold;
 }
