@@ -12,8 +12,9 @@ addTaskHtml = (id, taskName) => {
     var html = `
         <div class="task-div">
             <p class="name-of-task">${taskName}</p>
-            <button class="button delete" onclick="clickDeleteButton(this, '${id}')">Delete</button>
+            
             <button class="button edit" onclick="clickEditButton('${id}')">Edit</button>
+            <button class="button delete" onclick="clickDeleteButton(this, '${id}')">Delete</button>
         </div>
     `
 
